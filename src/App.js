@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             <ContactForm></ContactForm>
           )}
       </main>
+      <Footer></Footer>
     </div>
   );
 }
