@@ -1,7 +1,7 @@
 import React from 'react';
 import portrait from '../../assets/portrait.jpg';
 
-function About() {
+const About = () => {
   return (
     <section>
       <h1 id="about">Who am I?</h1>

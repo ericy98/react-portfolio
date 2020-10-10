@@ -6,12 +6,13 @@ import ContactForm from './components/Contact';
 function App() {
 
   const [contactSelected, setContactSelected] = useState(false);
+
   return (
     <div>
-      <Nav>
+      <Nav
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
-      </Nav>
+      ></Nav>
       <main>
         {!contactSelected ? (
           <>
