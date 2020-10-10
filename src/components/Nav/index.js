@@ -18,7 +18,7 @@ function Nav() {
                         <a href="#portfolio">Portfolio</a>
                     </li>
                     <li className="mx-2">
-                        <a href="#contact">Contact</a>
+                        <span>Contact</span>
                     </li>
 
                 </ul>
