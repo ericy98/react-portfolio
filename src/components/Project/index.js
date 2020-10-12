@@ -10,10 +10,10 @@ function Project({ project }) {
                 alt={imgName}
                 className="project-bg"
             />
-            <div className="project-text">
+            <div className="project-text text-center">
                 <h3>
-                    <a href={link}>{name}</a>
-                    <a href={repo}>
+                    <a href={link} target="_blank" rel="noopener noreferrer">{name}</a>
+                    <a href={repo} target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-github"></i>
                     </a>
                 </h3>
