@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Project from './Project';
+import Project from '../Project';
 
 function Portfolio() {
 
@@ -12,26 +12,46 @@ function Portfolio() {
             repo: 'https://github.com/JessBot500/Worth-My-Time'
         },
         {
+            name: `I'll Be Honest`,
+            imgName: 'illbehonest',
+            description: 'MySQL, Handlebars, Sass, ExpressJs',
+            link: 'https://illbehonest.herokuapp.com/',
+            repo: 'https://github.com/GildedRose/illbehonest'
+        },
+        {
+            name: 'Deep Thoughts',
+            imgName: 'deepthoughts',
+            description: 'React, GraphQL, Apollo',
+            link: 'https://github.com/ericy98/deep-thoughts',
+            repo: 'https://github.com/ericy98/deep-thoughts'
+        },
+        {
             name: 'Employee Tracker',
             imgName: 'employeetracker',
             description: 'MySQL, ExpressJS, JS',
             link: 'https://drive.google.com/file/d/1JDbOb6guJJbErGGdCTgC0ZWYCh-dNKOc/view',
             repo: 'https://github.com/ericy98/employee-tracker'
+        },
+        {
+            name: 'Matching a Hex Value',
+            imgName:'regextutorial',
+            description: 'Regex Tutorial',
+            link: 'https://gist.github.com/ericy98/1ff1c5afae3f3c0f26dd2fd747f1d9dc',
+            repo: 'https://github.com/ericy98/regex-tutorial'
         }
     ])
 
     return (
-        <div className="container">
-            <h2>Portfolio</h2>
-            <div className="row">
-                <div className="col">
-                    <p>1 of 2</p>
-                </div>
-                <div className="col">
-                    <p>2 of 2</p>
-                </div>
-            </div>
+        <div>
+        <div className="flex-row justify-content-center">
+          {projects.map((project, idx) => (
+            <Project
+              project={project}
+              key={"project" + idx}
+            />
+          ))}
         </div>
+      </div>
     )
 }
 
