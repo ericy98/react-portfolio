@@ -4,7 +4,8 @@ import Home from './Homepage';
 import About from './About';
 import Portfolio from './Portfolio';
 import ContactForm from './Contact';
-import Footer from './Footer';
+import Resume from './Resume'
+import resumePDF from '../assets/resume.pdf';
 
 function Page() {
     const [currentPage, handlePageChange] = useState('Home');
@@ -17,6 +18,8 @@ function Page() {
                 return <Portfolio />;
             case 'Contact':
                 return <ContactForm />;
+            case 'Resume':
+                return <Resume pdf={ resumePDF } />;
             default:
                 return <Home />;
         }
@@ -28,7 +31,6 @@ function Page() {
                 <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
                 <div>{renderPage(currentPage)}</div>
             </section>
-            <Footer />
         </div>
     )
 }

@@ -2,26 +2,30 @@ import React from 'react';
 
 const NavTabs = (props) => {
 
-    const tabs = ['Home', 'About', 'Portfolio', 'Contact'];
+    const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
 
     return (
         <div>
-            {/* <h2>Eric Yarbrough</h2> */}
-            <ul className="nav nav-tabs px-5">
-                {tabs.map(tab => (
-                    <li className="nav-item tab" key={tab}>
-                        <a
-                            href={'#' + tab.toLowerCase()}
-                            onClick={() => props.handlePageChange(tab)}
-                            className={
-                                props.currentPage === tab ? 'nav-link active ' : 'nav-link'
-                            }
-                        >
-                            {tab}
-                        </a>
-                    </li>
-                ))}
-            </ul>
+            <section className="mx-5 d-flex">
+                <h1  className="flex-grow-1">
+                    <a href="/">Eric Yarbrough</a>
+                </h1>
+                <ul className="nav nav-tabs">
+                    {tabs.map(tab => (
+                        <li className="nav-item" key={tab}>
+                            <a
+                                href={'#' + tab.toLowerCase()}
+                                onClick={() => props.handlePageChange(tab)}
+                                className={
+                                    props.currentPage === tab ? 'nav-link active ' : 'nav-link '
+                                }
+                            >
+                                {tab}
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </section>
         </div>
     );
 }

@@ -88,15 +88,12 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
-}
-
-header {
-  background: var(--dark);
+  text-decoration: none;
+  color: var(--tertiary);
 }
 
 header a {
-  color: var(--light);
+  color: var(--tertiary);
 }
 
 button {
@@ -158,11 +155,20 @@ nav  li {
   cursor: pointer;
 }
 
+label {
+  padding-right: .5rem;
+}
+
 textarea {
 	width: 600px;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
+}
+
+textarea:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
 .container {
@@ -296,8 +302,8 @@ footer a:hover {
 }
 
 .portrait {
-  width: 50%; 
-  height: 50%;
+  width: 42%; 
+  height: 42%;
 }
 
 
@@ -341,11 +347,20 @@ footer a:hover {
 .project-text a {
   text-decoration: none;
   font-weight: bold;
-  color: var(--secondary);
+  color: var(--tertiary);
   transition: all .3s ease-in-out;
 }
 
 .project-text a:hover {
-  color: var(--darker);
+  color: var(--secondary);
+}
+
+.homeh2 {
+  font-size: 2rem;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-left: #fff;
+  border-right: #fff;
+  padding: 6rem;
 }
 
