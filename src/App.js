@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Page from './components/PagesContainer';
-import NavTabs from "./components/Nav";
-import Footer from "./components/Footer";
 
 function App() {
 
@@ -10,7 +8,6 @@ function App() {
       <main>
         <Page />
       </main>
-      <Footer />
     </div>
   )
 }

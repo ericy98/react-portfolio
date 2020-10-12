@@ -6,7 +6,7 @@ const NavTabs = (props) => {
 
     return (
         <div>
-            <h2>Eric Yarbrough</h2>
+            {/* <h2>Eric Yarbrough</h2> */}
             <ul className="nav nav-tabs">
                 {tabs.map(tab => (
                     <li className="nav-item" key={tab}>

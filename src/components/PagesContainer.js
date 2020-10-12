@@ -4,6 +4,7 @@ import Home from './Homepage';
 import About from './About';
 import Portfolio from './Portfolio';
 import ContactForm from './Contact';
+import Footer from './Footer';
 
 function Page() {
     const [currentPage, handlePageChange] = useState('Home');
@@ -23,8 +24,11 @@ function Page() {
 
     return (
         <div>
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-            <div>{renderPage(currentPage)}</div>
+            <section>
+                <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+                <div>{renderPage(currentPage)}</div>
+            </section>
+            <Footer />
         </div>
     )
 }
