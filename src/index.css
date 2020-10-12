@@ -81,12 +81,6 @@ p {
   margin-top: 0;
 }
 
-a {
-  color: var(--tertiary);
-  text-decoration: none;
-  font-weight: bold;
-}
-
 a:hover {
   text-decoration: none;
   color: var(--tertiary);
@@ -262,12 +256,16 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: #fff;
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
 	
+}
+
+.title {
+  color: var(--primary);
 }
 
 .navActive {
@@ -277,7 +275,7 @@ a {
 }
 
 .nav-link:hover {
-  color: var(--tertiary);
+  color: #fff;
 }
 
 .tab {
@@ -364,3 +362,8 @@ footer a:hover {
   padding: 6rem;
 }
 
+.nTab {
+  background-color: var(--primary);
+  padding: .25rem;
+  border-radius: 5px;
+}

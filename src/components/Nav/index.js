@@ -8,11 +8,11 @@ const NavTabs = (props) => {
         <div>
             <section className="mx-5 d-flex">
                 <h1  className="flex-grow-1">
-                    <a href="/">Eric Yarbrough</a>
+                    <a href="/" className="title">Eric Yarbrough</a>
                 </h1>
-                <ul className="nav nav-tabs">
+                <ul className="nav nav-tabs nTab">
                     {tabs.map(tab => (
-                        <li className="nav-item" key={tab}>
+                        <li className="nav-item p-1" key={tab}>
                             <a
                                 href={'#' + tab.toLowerCase()}
                                 onClick={() => props.handlePageChange(tab)}
