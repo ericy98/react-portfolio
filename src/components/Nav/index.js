@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../assets/logo.png';
 
 const NavTabs = (props) => {
 
@@ -7,10 +8,8 @@ const NavTabs = (props) => {
     return (
         <div>
             <section className="mx-5 d-flex">
-                <h1  className="flex-grow-1">
-                    <a href="/" className="title">Eric Yarbrough</a>
-                </h1>
-                <ul className="nav nav-tabs nTab">
+                <a href="/"><img src={logo} ></img></a>
+                <ul className="nav">
                     {tabs.map(tab => (
                         <li className="nav-item p-1" key={tab}>
                             <a

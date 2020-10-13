@@ -37,28 +37,34 @@ function ContactForm() {
     }
 
     return (
-        <section className='m-5'>
-            <h2>Contact me</h2>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="Name" onBlur={handleChange} defaultValue={name} />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" onBlur={handleChange} defaultValue={email} />
-                </div>
-                <div>
-                    <label htmlFor="essage">Message:</label>
-                    <textarea name="Message" rows="5" onBlur={handleChange} defaultValue={message} />
-                </div>
-                {errorMessage && (
+        <section className='m-5 d-flex'>
+            <div>
+                <h2>Contact Me</h2>
+                <form id="contact-form" onSubmit={handleSubmit}>
                     <div>
-                        <p className="error-text">{errorMessage}</p>
+                        <label htmlFor="name">Name:</label>
+                        <input type="text" name="Name" onBlur={handleChange} defaultValue={name} />
                     </div>
-                )}
-                <button type="submit">Submit</button>
-            </form>
+                    <div>
+                        <label htmlFor="email">Email address:</label>
+                        <input type="email" name="email" onBlur={handleChange} defaultValue={email} />
+                    </div>
+                    <div>
+                        <label htmlFor="essage">Message:</label>
+                        <textarea name="Message" rows="5" onBlur={handleChange} defaultValue={message} />
+                    </div>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            {/* <div className="px-1 justify-content-end">
+                <h2> Email Me: ea.yarbrough98@gmail.com</h2>
+                <h2>Call Me: (512)758-9169</h2>
+            </div> */}
         </section>
     )
 }

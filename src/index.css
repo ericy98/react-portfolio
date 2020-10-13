@@ -255,9 +255,9 @@ button {
 }
 
 a {
-	border-radius: 5px;
-	color: #fff;
-	font-weight: 600;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+	color: var(--primary);
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
@@ -274,13 +274,6 @@ a {
   text-shadow: 3px 3px 15px rgba(255,255,255, .5);
 }
 
-.nav-link:hover {
-  color: #fff;
-}
-
-.tab {
-  color: #BB4430;
-}
 
 .footer {
   display: flex;
@@ -361,9 +354,21 @@ footer a:hover {
   border-right: #fff;
   padding: 6rem;
 }
+/* .resume {
+  border: 2px solid var(--primary);
+  border-left: #fff;
+  border-right: #fff;
+  padding: 6rem;
+}
 
-.nTab {
+.who {
+  border: 2px solid var(--primary);
+  border-left: #fff;
+  border-right: #fff;
+} */
+
+/* .nTab {
   background-color: var(--primary);
   padding: .25rem;
   border-radius: 5px;
-}
+} */
