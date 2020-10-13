@@ -8,13 +8,14 @@ const NavTabs = (props) => {
     return (
         <div>
             <section className="mx-5 d-flex">
-                <a href="/"><img src={logo} ></img></a>
+                <a href="/" alt="Homepage"><img src={logo} alt="E.Y. logo" ></img></a>
                 <ul className="nav">
                     {tabs.map(tab => (
                         <li className="nav-item p-1" key={tab}>
                             <a
                                 href={'#' + tab.toLowerCase()}
                                 onClick={() => props.handlePageChange(tab)}
+                                alt={`${tab} webpage`}
                                 className={
                                     props.currentPage === tab ? 'nav-link active ' : 'nav-link '
                                 }

@@ -289,7 +289,7 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--pop)
+  color: var(--pop);
 }
 
 .portrait {
@@ -336,7 +336,7 @@ footer a:hover {
 }
 
 .project-text a {
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
   color: var(--tertiary);
   transition: all .3s ease-in-out;
@@ -344,6 +344,7 @@ footer a:hover {
 
 .project-text a:hover {
   color: var(--secondary);
+  text-decoration: none;
 }
 
 .homeh2 {
@@ -354,21 +355,11 @@ footer a:hover {
   border-right: #fff;
   padding: 6rem;
 }
-/* .resume {
-  border: 2px solid var(--primary);
-  border-left: #fff;
-  border-right: #fff;
-  padding: 6rem;
+
+.resume {
+  text-decoration: underline;
 }
 
-.who {
-  border: 2px solid var(--primary);
-  border-left: #fff;
-  border-right: #fff;
-} */
-
-/* .nTab {
-  background-color: var(--primary);
-  padding: .25rem;
-  border-radius: 5px;
-} */
+.resume:hover {
+  text-decoration: none;
+}

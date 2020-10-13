@@ -7,7 +7,7 @@ function Project({ project }) {
         <div className="project" key={name}>
             <img
                 src={require(`../../assets/${imgName}.png`)}
-                alt={imgName}
+                alt={`Screenshot of ${imgName}`}
                 className="project-bg"
             />
             <div className="project-text text-center">
