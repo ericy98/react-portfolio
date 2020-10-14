@@ -18,7 +18,7 @@ Start the server:
 ## Future Updates:
 * Build the back-end to accept form data.
 * Enhance portfolio image quality.
-* I plan on building a mobile design very soon...
+* Build out the mobile side of the site.
 
 ## Made By:
 Eric Yarbrough
