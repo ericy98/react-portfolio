@@ -8,7 +8,7 @@ const NavTabs = (props) => {
     return (
         <div>
             <section className="mx-3 d-flex">
-                <a href="/" alt="Homepage"><img src={logo} alt="E.Y. logo"className="mr-3" ></img></a>
+                <a href="" alt="Homepage"><img src={logo} alt="E.Y. logo"className="mr-3" ></img></a>
                 <ul className="nav align-items-center">
                     {tabs.map(tab => (
                         <li className="nav-item p-1" key={tab}>
