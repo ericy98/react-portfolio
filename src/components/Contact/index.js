@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import face from '../../assets/face.png';
 
 function ContactForm() {
 
@@ -37,34 +38,37 @@ function ContactForm() {
     }
 
     return (
-        <section className='m-5 d-flex'>
-            <div>
-                <h2>Contact Me</h2>
-                <form id="contact-form" onSubmit={handleSubmit}>
-                    <div>
-                        <label htmlFor="name">Name:</label>
-                        <input type="text" name="Name" onBlur={handleChange} defaultValue={name} />
+        <section className='container-fluid m-5'>
+            <div className="row align-items-center py-5">
+                <div className="col-lg-6 d-flex justify-content-center">
+                    <div className="contact">
+                        <h2 className="p-3">Contact Me</h2>
+                        <form id="contact-form" onSubmit={handleSubmit}>
+                            <div className="p-3">
+                                <label htmlFor="name">Full Name:</label>
+                                <input type="text" name="Full Name" onBlur={handleChange} defaultValue={name} />
+                            </div>
+                            <div className="p-3">
+                                <label htmlFor="email">Email address:</label>
+                                <input type="email" name="email" onBlur={handleChange} defaultValue={email} />
+                            </div>
+                            <div className="p-3">
+                                <label htmlFor="essage">Message:</label>
+                                <textarea name="Message" rows="5" onBlur={handleChange} defaultValue={message} />
+                            </div>
+                            {errorMessage && (
+                                <div className="p-3">
+                                    <p className="error-text">{errorMessage}</p>
+                                </div>
+                            )}
+                            <button type="submit" className="m-3">Submit</button>
+                        </form>
                     </div>
-                    <div>
-                        <label htmlFor="email">Email address:</label>
-                        <input type="email" name="email" onBlur={handleChange} defaultValue={email} />
-                    </div>
-                    <div>
-                        <label htmlFor="essage">Message:</label>
-                        <textarea name="Message" rows="5" onBlur={handleChange} defaultValue={message} />
-                    </div>
-                    {errorMessage && (
-                        <div>
-                            <p className="error-text">{errorMessage}</p>
-                        </div>
-                    )}
-                    <button type="submit">Submit</button>
-                </form>
+                </div>
+                <div className="col-lg-6 d-flex justify-content-center">
+                    <img src={face} alt="art with head falling off"></img>
+                </div>
             </div>
-            {/* <div className="px-1 justify-content-end">
-                <h2> Email Me: ea.yarbrough98@gmail.com</h2>
-                <h2>Call Me: (512)758-9169</h2>
-            </div> */}
         </section>
     )
 }

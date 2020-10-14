@@ -6,8 +6,8 @@ const NavTabs = (props) => {
     const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
 
     return (
-        <div>
-            <section className="mx-5 d-flex">
+        <div className="mx-5" >
+            <section className="mx-3 d-flex">
                 <a href="/" alt="Homepage"><img src={logo} alt="E.Y. logo" ></img></a>
                 <ul className="nav align-items-center">
                     {tabs.map(tab => (

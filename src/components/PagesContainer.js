@@ -5,7 +5,6 @@ import About from './About';
 import Portfolio from './Portfolio';
 import ContactForm from './Contact';
 import Resume from './Resume'
-import resumePDF from '../assets/resume.pdf';
 
 function Page() {
     const [currentPage, handlePageChange] = useState('Home');
@@ -19,7 +18,7 @@ function Page() {
             case 'Contact':
                 return <ContactForm />;
             case 'Resume':
-                return <Resume pdf={ resumePDF } />;
+                return <Resume/>;
             default:
                 return <Home />;
         }

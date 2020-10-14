@@ -367,7 +367,8 @@ footer a:hover {
 }
 
 .who,
-.what {
+.what,
+.contact {
   border-top: 2px solid var(--pop);
   border-bottom: 2px solid var(--secondary);
 }
