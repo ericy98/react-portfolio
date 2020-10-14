@@ -4,18 +4,29 @@ main {
 	max-width: 90%;
   padding: 50px 30px;
 }
-:root {
-  --primary: #6D8F9C;
-  --secondary: #45B69C;
-  --tertiary: #A0A4B8;
-  --light: #F1F2F9;
-  --pop: #21D19F;
-  --dark: #111111;
+/* :root {
+  --body: #242424;
+  --text: #EFEFEF;
+  --yellow: #FFE400;
+  --green: #14A76C;
+  --orange: #FF652F;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
 
+} */
+
+:root {
+  --primary: #272727;
+  --secondary: #14A76C;
+  --tertiary: #FF652F;
+  --text: #FEFFFF;
+  --pop: #FFE400;
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
 }
 
 * {
@@ -33,9 +44,9 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: #fff;
-  color: #000000;
-  font-family: 'Source Sans Pro', sans-serif;
+  background: var(--primary);
+  color: var(--text);
+  font-family: 'Staatliches', cursive;
 
 }
 
@@ -45,70 +56,71 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Staatliches', cursive;
   margin: 5px 0;
   line-height: 1.25;
 }
 
 h1 {
-  font-size: 2.25rem;
-  color: var(--primary);
+  font-size: 2.75rem;
 }
 
 h2 {
-  font-size: 2rem;
-  color: var(--primary);
+  font-size: 2.5rem;
+  color: var(--text);
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 2.25rem;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 2.0rem;
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   margin-top: 0;
 }
 
 a:hover {
   text-decoration: none;
-  color: var(--tertiary);
+  color: var(--secondary);
 }
 
 header a {
-  color: var(--tertiary);
+  color: var(--text);
 }
 
-button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
-}
+/* button {
+	background: var(--secondary);
+	border: var(--text);
+	border-radius: 5px;
+	color: var(--text);
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+} */
 
 button:hover {
   opacity: .8;
+  
 }
 
 button[disabled] {
   cursor: default;
   opacity: .8;
+  
 }
 
 img {
@@ -242,22 +254,10 @@ textarea:focus {
   cursor: pointer;
 }
 
-button {
-	background: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
-}
-
 a {
   border-radius: 5px;
-  font-family: 'Source Sans Pro', sans-serif;
-	color: var(--primary);
+  font-family: 'Staatliches', cursive;
+	color: var(--text);
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
@@ -282,14 +282,14 @@ a {
 }
 
 footer a {
-  color: var(--primary);
+  color: var(--text);
   opacity: 1;
   margin: 10px 20px;
   transition: all .3s ease-in-out;
 }
 
 footer a:hover {
-  color: var(--pop);
+  color: var(--secondary);
 }
 
 .portrait {
@@ -313,7 +313,7 @@ footer a:hover {
 }
 
 .project-text {
-    color: var(--secondary);
+    color: var(--tertiary);
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -326,9 +326,9 @@ footer a:hover {
 }
 
 .project-text:hover {
-  background-color: #000000;
-  opacity: .8;
-  border: 10px solid var(--secondary);
+  background-color: rgb(39, 39, 39, 0.85);
+  opacity: 1;
+  border: 5px solid var(--tertiary);
 }
 
 .project-text h3 {
@@ -343,16 +343,14 @@ footer a:hover {
 }
 
 .project-text a:hover {
-  color: var(--secondary);
+  color: var(--tertiary);
   text-decoration: none;
 }
 
 .homeh2 {
   font-size: 2rem;
-  color: var(--primary);
-  border: 2px solid var(--primary);
-  border-left: #fff;
-  border-right: #fff;
+  border-top: 2px solid var(--pop);
+  border-bottom: 2px solid var(--secondary);
   padding: 6rem;
 }
 
@@ -362,4 +360,15 @@ footer a:hover {
 
 .resume:hover {
   text-decoration: none;
+}
+
+.nav-link.active {
+ background: var(--secondary);
+}
+
+.who,
+.what {
+  border-top: 2px solid var(--pop);
+  border-bottom: 2px solid var(--secondary);
+  padding: 6rem;
 }

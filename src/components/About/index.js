@@ -4,8 +4,8 @@ import React from 'react';
 const About = () => {
   return (
     <section>
-      <div className="who">
-        <h2 className="m-5">
+      <div>
+        <h2 className="m-5 who">
           Who I Am.
         </h2>
         <p className="text-break m-5">
@@ -15,8 +15,8 @@ const About = () => {
           When I'm not working I enjoy playing competitive F.P.S. games on my PC. Right now, I'm addicted to Valorant and main Cypher and Sova. Also, I love reading fantasy or horror books. I'm trying to tackle George R.R. Martin's series "A Song of Ice and Fire". As for the horror side of things, I'm obsessed with Stephen King's "It". Similarly, I'm a huge movie buff and adore cinematography and analyzing films.
         </p>
       </div>
-      <div className="what">
-        <h2 className="m-5">
+      <div>
+        <h2 className="m-5 what">
           What I Do.
         </h2>
         <p className="text-break m-5">
