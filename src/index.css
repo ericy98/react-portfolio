@@ -4,24 +4,13 @@ main {
 	max-width: 90%;
   padding: 50px 30px;
 }
-/* :root {
-  --body: #242424;
-  --text: #EFEFEF;
-  --yellow: #FFE400;
-  --green: #14A76C;
-  --orange: #FF652F;
-  --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
-
-} */
 
 :root {
   --primary: #272727;
   --secondary: #14A76C;
   --tertiary: #FF652F;
   --text: #FEFFFF;
+  --light: #555555;
   --pop: #FFE400;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -268,17 +257,9 @@ a {
   color: var(--primary);
 }
 
-.navActive {
-  color: var(--secondary);
-  cursor: default;
-  text-shadow: 3px 3px 15px rgba(255,255,255, .5);
-}
-
-
 .footer {
   display: flex;
   justify-content: center;
-  padding: 50px;
 }
 
 footer a {
@@ -363,7 +344,7 @@ footer a:hover {
 }
 
 .nav-link.active {
- background: var(--secondary);
+ border: 2px solid var(--secondary);
 }
 
 .who,
