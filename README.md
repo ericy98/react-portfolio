@@ -13,6 +13,9 @@ To create a react app:
 Start the server:
   > npm start
 
+## Future Updates:
+I plan on building a mobile design very soon...
+
 ## Made By:
 Eric Yarbrough
 
