@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88d12a99591c2f9b782d73750b1b5989",
+    "revision": "38fe11178d601881a443fb9b37aaa55a",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "ae67741899aaf1ce11a5",
-    "url": "/react-portfolio/static/css/main.3f2ff17e.chunk.css"
+    "revision": "eefd5630bcdcff8c7126",
+    "url": "/react-portfolio/static/css/main.c97c2ac8.chunk.css"
   },
   {
-    "revision": "c5a7847cb318ec11b38b",
-    "url": "/react-portfolio/static/js/2.f2e06ea2.chunk.js"
+    "revision": "be130213a9c081400d49",
+    "url": "/react-portfolio/static/js/2.3b5e94f8.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-portfolio/static/js/2.f2e06ea2.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.3b5e94f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ae67741899aaf1ce11a5",
-    "url": "/react-portfolio/static/js/main.19a0ec67.chunk.js"
+    "revision": "eefd5630bcdcff8c7126",
+    "url": "/react-portfolio/static/js/main.daa1a7e1.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
     "url": "/react-portfolio/static/js/runtime-main.213b1880.js"
   },
   {
-    "revision": "fa21aee9ba56940882350a20e38b8d81",
-    "url": "/react-portfolio/static/media/deepthoughts.fa21aee9.png"
+    "revision": "6bdaf52ad1562a966a3ae23fc34794e6",
+    "url": "/react-portfolio/static/media/deepthoughts.6bdaf52a.png"
   },
   {
-    "revision": "da3a7cb8108432c3a152e97b51bd9090",
-    "url": "/react-portfolio/static/media/employeetracker.da3a7cb8.png"
+    "revision": "5ce2d0eb8f0b5d2970b7a7bd037cdeba",
+    "url": "/react-portfolio/static/media/employeetracker.5ce2d0eb.png"
   },
   {
     "revision": "2211b128984f3474628ea1a0fef8abad",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/portrait2.6a471e4b.png"
   },
   {
-    "revision": "412b82a1605aa1b6ce1a4e0795b0c148",
-    "url": "/react-portfolio/static/media/regextutorial.412b82a1.png"
+    "revision": "e354700f26cda4a61e8aceade33670c7",
+    "url": "/react-portfolio/static/media/regextutorial.e354700f.png"
   },
   {
     "revision": "c4afd0b363489524c6ff21453cbf268e",
