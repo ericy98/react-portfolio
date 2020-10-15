@@ -1,8 +1,10 @@
 # React Portfolio
 https://ericy98.github.io/react-portfolio/
 
+![portfolio-sc](https://user-images.githubusercontent.com/65314282/96038913-7a1d7480-0e2d-11eb-9340-b6162d8bc18f.png)
+
 ## Description:
-A professional website showcasing my skills and portfolio
+A professional website showcasing my React skills and featuring my portfolio.
 
 ## Installation:
 Download node.js
@@ -15,7 +17,8 @@ Start the server:
 
 ## Future Updates:
 * Build the back-end to accept form data.
-* I plan on building a mobile design very soon...
+* Enhance portfolio image quality.
+* Build out the mobile side of the site.
 
 ## Made By:
 Eric Yarbrough
