@@ -1,7 +1,7 @@
 # React Portfolio
 https://ericy98.github.io/react-portfolio/
 
-![portfolio-sc](https://user-images.githubusercontent.com/65314282/96038913-7a1d7480-0e2d-11eb-9340-b6162d8bc18f.png)
+![portfolio-sc](https://user-images.githubusercontent.com/65314282/96062540-8ae4df00-0e5b-11eb-9203-c60187bfb6e8.png)
 
 ## Description:
 A professional website showcasing my React skills and featuring my portfolio.
