@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../assets/logo.png';
 import minimal from '../../assets/minimal-logo.png';
 
 const NavTabs = (props) => {

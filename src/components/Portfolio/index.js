@@ -10,6 +10,12 @@ function Portfolio() {
             description: 'HTML, CSS, JS',
             link: 'https://jessbot500.github.io/Worth-My-Time/',
             repo: 'https://github.com/JessBot500/Worth-My-Time'
+        },{
+            name: 'Deep Thoughts',
+            imgName: 'deepthoughts',
+            description: 'React, GraphQL, Apollo',
+            link: 'https://shielded-ridge-16421.herokuapp.com/',
+            repo: 'https://github.com/ericy98/deep-thoughts'
         },
         {
             name: `I'll Be Honest`,
@@ -17,13 +23,6 @@ function Portfolio() {
             description: 'MySQL, Handlebars, Sass, ExpressJs',
             link: 'https://illbehonest.herokuapp.com/',
             repo: 'https://github.com/GildedRose/illbehonest'
-        },
-        {
-            name: 'Deep Thoughts',
-            imgName: 'deepthoughts',
-            description: 'React, GraphQL, Apollo',
-            link: 'https://github.com/ericy98/deep-thoughts',
-            repo: 'https://github.com/ericy98/deep-thoughts'
         },
         {
             name: 'Employee Tracker',
