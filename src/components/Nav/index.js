@@ -13,7 +13,7 @@ const NavTabs = (props) => {
                     {tabs.map(tab => (
                         <li className="nav-item p-1" key={tab}>
                             <a
-                                href={'#' + tab.toLowerCase()}
+                                href={tab.toLowerCase()}
                                 onClick={() => props.handlePageChange(tab)}
                                 alt={`${tab} webpage`}
                                 className={
