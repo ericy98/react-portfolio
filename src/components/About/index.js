@@ -16,7 +16,7 @@ const About = () => {
               Who I Am.
           </h2>
             <p className="text-break m-3">
-              I went to the University of Texas at Austin and graduated in May of 2020 with a B.A. in Anthropology. I know I know, a liberal arts major, but I’ve seen the light, and now I’m addicted to coding. Covid-19 has kept my face glued to the computer. I'm always working or keeping busy and definitely laughing. When I'm not working I enjoy playing competitive F.P.S. games on my PC. Right now, I'm addicted to Valorant and main Cypher and Sova. Also, I love reading fantasy or horror books. I'm trying to tackle George R.R. Martin's series "A Song of Ice and Fire". As for the horror side of things, I'm obsessed with Stephen King's "It". Similarly, I'm a huge movie buff and adore cinematography and analyzing films.
+              My name is Eric Yarbrough! I went to the University of Texas at Austin and graduated in May of 2020 with a B.A. in Anthropology. I know I know, a liberal arts major, but I’ve seen the light, and now I’m addicted to coding. Covid-19 has kept my face glued to the computer. I'm always working or keeping busy and definitely laughing. When I'm not working I enjoy playing competitive F.P.S. games on my PC. Right now, I'm addicted to Valorant and main Cypher and Sova. Also, I love reading fantasy or horror books. I'm trying to tackle George R.R. Martin's series "A Song of Ice and Fire". As for the horror side of things, I'm obsessed with Stephen King's "It". Similarly, I'm a huge movie buff and adore cinematography and analyzing films.
           </p>
           </div>
         </div>
