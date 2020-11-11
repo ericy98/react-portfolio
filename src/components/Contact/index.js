@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
-import face from '../../assets/face.png';
+// import face from '../../assets/face.png';
 
 function ContactForm() {
 
@@ -39,11 +39,15 @@ function ContactForm() {
 
     return (
         <section className='container-fluid m-5'>
-            <div className="row align-items-center py-5">
-                <div className="col-lg-6 d-flex justify-content-center">
-                    <div className="contact">
+            <div className="align-items-center py-5">
+                <div className=" d-flex justify-content-center">
+                    <div className="  justify-content-center text-center">
+                        <p>(Currently Under development)</p>
                         <h2 className="p-3">Contact Me</h2>
-                        <form id="contact-form" onSubmit={handleSubmit}>
+
+                        <p>Email: <a href='mailto: ea.yarbrough98@gmail.com' alt="Email">ea.yarbrough98@gmail.com</a></p>
+
+                        {/* <form id="contact-form" onSubmit={handleSubmit}>
                             <div className="p-3">
                                 <label htmlFor="name">Full Name:</label>
                                 <input type="text" name="Full Name" onBlur={handleChange} defaultValue={name} />
@@ -62,12 +66,12 @@ function ContactForm() {
                                 </div>
                             )}
                             <button type="submit" className="m-3">Submit</button>
-                        </form>
+                        </form> */}
                     </div>
                 </div>
-                <div className="col-lg-6 d-flex justify-content-center">
+                {/* <div className="col-lg-6 d-flex justify-content-center">
                     <img src={face} alt="art with head falling off"></img>
-                </div>
+                </div> */}
             </div>
         </section>
     )
