@@ -12,6 +12,8 @@ main {
   --text: #FEFFFF;
   --light: #555555;
   --pop: #FFE400;
+  --blue: #5c95ff;
+  --red: #bf0603;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -277,6 +279,21 @@ footer a:hover {
   height: 42%;
 }
 
+/* .about {
+  color: var(--secondary);
+} */
+
+.red {
+  color: var(--red);
+}
+
+.secondary {
+  color: var(--blue);
+}
+
+.pop {
+  color: var(--pop);
+}
 
 .project {
   position: relative;
