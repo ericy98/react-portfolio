@@ -39,7 +39,7 @@ function ContactForm() {
 
     return (
         <section className='container-fluid'>
-            <div className="align-items-center py-5">
+            <div className="align-items-center py-3">
                 <div className=" d-flex justify-content-center">
                     <div className="  justify-content-center text-center">
                         <p>(Currently Under development)</p>

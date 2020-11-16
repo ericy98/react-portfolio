@@ -5,7 +5,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="container-fluid py-5">
+    <div className="container-fluid py-3">
       <div className="row align-items-center text-center">
         <div className="py-1">
           <h2 className="about">

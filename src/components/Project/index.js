@@ -4,7 +4,7 @@ function Project({ project }) {
     const { name, imgName, description, link, repo } = project
 
     return (
-        <div className="project" key={name}>
+        <div className="project py-3" key={name}>
             <img
                 src={require(`../../assets/${imgName}.png`)}
                 alt={`Screenshot of ${imgName}`}

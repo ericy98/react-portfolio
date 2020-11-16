@@ -2,11 +2,15 @@ import React from 'react';
 
 function Home() {
     return (
-        <div className="container-fluid m-5">
-            <div className="row align-items-center">
-                <div className="col-lg d-flex justify-content-center">
-                    <h1 className="homeh2">I'm a Full-Stack Web Developer from Austin, Texas. </h1>
-                </div>
+        <div className="text-center py-2 homeBG">
+            <div>
+                <h1>Hi!</h1>
+            </div>
+            <div>
+                <h1>I'm a Full-Stack Web Developer</h1>
+            </div>
+            <div>
+                <h1>from the greater Austin, Texas area.</h1>
             </div>
         </div>
     )
