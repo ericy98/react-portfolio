@@ -6,13 +6,13 @@ main {
 }
 
 :root {
-  --primary: #272727;
-  --secondary: #14A76C;
-  --tertiary: #FF652F;
+  --primary: #1A1A1D;
+  --secondary: #7524aa;
+  --tertiary: #90e5eb;
   --text: #FEFFFF;
   --light: #555555;
-  --pop: #FFE400;
-  --blue: #5c95ff;
+  --pop: #D50B9D;
+  --blue: #170BD5;
   --red: #bf0603;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -254,6 +254,7 @@ a {
 	
 }
 
+
 .title {
   color: var(--primary);
 }
@@ -281,19 +282,9 @@ footer a:hover {
 
 .about {
   text-decoration: underline;
+  color: var(--secondary);
 }
 
-.red {
-  color: var(--red);
-}
-
-.secondary {
-  color: var(--blue);
-}
-
-.pop {
-  color: var(--pop);
-}
 
 .project {
   position: relative;
@@ -310,7 +301,7 @@ footer a:hover {
 }
 
 .project-text {
-    color: var(--tertiary);
+    color: var(--pop);
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -325,7 +316,7 @@ footer a:hover {
 .project-text:hover {
   background-color: rgb(39, 39, 39, 0.85);
   opacity: 1;
-  border: 5px solid var(--tertiary);
+  
 }
 
 .project-text h3 {
@@ -335,12 +326,12 @@ footer a:hover {
 .project-text a {
   text-decoration: underline;
   font-weight: bold;
-  color: var(--tertiary);
+  color: var(--text);
   transition: all .3s ease-in-out;
 }
 
 .project-text a:hover {
-  color: var(--tertiary);
+  color: var(--pop);
   text-decoration: none;
 }
 
