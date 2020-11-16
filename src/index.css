@@ -129,7 +129,7 @@ form{
 }
 
 label{
-  color: var(--pop);
+  color: var(--text);
 }
 
 input {
@@ -294,6 +294,7 @@ footer a:hover {
 
 .about {
   text-decoration: underline;
+  text-decoration-color: var(--pop);
   color: var(--secondary);
 }
 
@@ -369,8 +370,7 @@ footer a:hover {
 .who,
 .what,
 .contact {
-  border-top: 2px solid var(--pop);
-  border-bottom: 2px solid var(--secondary);
+  color: var(--secondary);
 }
 
 @media only screen and (max-width: 700px) {
