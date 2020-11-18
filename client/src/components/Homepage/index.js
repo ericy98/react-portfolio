@@ -4,13 +4,13 @@ function Home() {
     return (
         <div className="text-center py-2 homeBG">
             <div>
-                <h1>Hi!</h1>
+                <h1>Eric.</h1>
             </div>
             <div>
-                <h1>I'm a Full-Stack Web Developer</h1>
+                <h1>Full-Stack Web Developer.</h1>
             </div>
             <div>
-                <h1>from the greater Austin, Texas area.</h1>
+                <h1>Austin, Texas.</h1>
             </div>
         </div>
     )

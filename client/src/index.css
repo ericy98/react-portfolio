@@ -7,12 +7,12 @@ main {
 
 :root {
   --primary: #1A1A1D;
-  --secondary: #7524aa;
-  --tertiary: #90e5eb;
+  --secondary: #7209b7;
+  --tertiary: #4cc9f0;
   --text: #FEFFFF;
   --light: #555555;
-  --pop: #D50B9D;
-  --blue: #170BD5;
+  --pop: #f72585;
+  --blue: #4361ee;
   --red: #bf0603;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -265,11 +265,11 @@ a {
   color: var(--primary);
 }
 
-.homeBG {
+/* .homeBG {
   background: url('./assets/background.png');
   background-size: contain; 
   color: var(--primary);
-}
+} */
 
 .footer {
   display: flex;
@@ -294,8 +294,8 @@ footer a:hover {
 
 .about {
   text-decoration: underline;
-  text-decoration-color: var(--pop);
-  color: var(--secondary);
+  text-decoration-color: var(--text);
+  color: var(--pop);
 }
 
 
@@ -370,7 +370,7 @@ footer a:hover {
 .who,
 .what,
 .contact {
-  color: var(--secondary);
+  color: var(--pop);
 }
 
 @media only screen and (max-width: 700px) {
