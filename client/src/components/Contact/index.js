@@ -33,8 +33,11 @@ function ContactForm() {
 
     function handleSubmit(e) {
         e.preventDefault();
+
         console.log(formState);
-    }
+    };
+
+
 
     return (
         <section>
@@ -48,15 +51,15 @@ function ContactForm() {
                     <form id="contact-form" onSubmit={handleSubmit}>
                         <div>
                             <label htmlFor="name">Full Name:</label>
-                            <input type="text" name="Full Name" placeholder='Full Name' onBlur={handleChange} defaultValue={name} />
+                            <input type="text" name="Full Name" placeholder='John Smith' onBlur={handleChange} defaultValue={name} />
                         </div>
                         <div>
                             <label htmlFor="email">Email address:</label>
-                            <input type="email" name="email"  placeholder='Email Address'onBlur={handleChange} defaultValue={email} />
+                            <input type="email" name="email" placeholder='email@mail.com' onBlur={handleChange} defaultValue={email} />
                         </div>
                         <div>
                             <label htmlFor="message">Message:</label>
-                            <textarea name="message" placeholder="Message" rows="5" onBlur={handleChange} defaultValue={message} />
+                            <textarea name="message" placeholder="Send me a message!" rows="5" onBlur={handleChange} defaultValue={message} />
                         </div>
                         {errorMessage && (
                             <div>
