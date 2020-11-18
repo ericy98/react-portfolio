@@ -10,7 +10,11 @@ type Contact {
 }
 
 type Query {
-    contact: Contact
+    contact: [Contact]
+}
+
+type Mutation {
+    addMessage(name: String!, email: String!, message: String!): Contact
 }
 `;
 
