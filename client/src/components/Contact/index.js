@@ -1,39 +1,34 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import { useMutation } from '@apollo/react-hooks';
+import { ADD_MESSAGE } from '../../utils/mutations';
 
 function ContactForm() {
 
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    const { name, email, message } = formState;
-    const [errorMessage, setErrorMessage] = useState('');
+
+    const [addMessage, { error }] = useMutation(ADD_MESSAGE);
 
     function handleChange(e) {
 
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-            console.log(isValid);
+        const { name, value } = e.target;
 
-            if (!isValid) {
-                setErrorMessage('Your email is invalid!')
-            } else {
-                setErrorMessage('');
-            }
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required!`);
-            } else {
-                setErrorMessage('');
-            }
+        setFormState({
+            ...formState,
+            [name]: value
+        });
+    };
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+
+        try {
+            await addMessage({
+                variables: { ...formState }
+            });
+        } catch (e) {
+            console.error(e);
         }
-
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value });
-        }
-    }
-
-    function handleSubmit(e) {
-        e.preventDefault();
-
         console.log(formState);
     };
 
@@ -51,22 +46,36 @@ function ContactForm() {
                     <form id="contact-form" onSubmit={handleSubmit}>
                         <div>
                             <label htmlFor="name">Full Name:</label>
-                            <input type="text" name="Full Name" placeholder='John Smith' onBlur={handleChange} defaultValue={name} />
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder='John Smith'
+                                value={formState.name}
+                                onChange={handleChange}
+                            />
                         </div>
                         <div>
                             <label htmlFor="email">Email address:</label>
-                            <input type="email" name="email" placeholder='email@mail.com' onBlur={handleChange} defaultValue={email} />
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder='email@mail.com'
+                                value={formState.email}
+                                onChange={handleChange}
+                            />
                         </div>
                         <div>
                             <label htmlFor="message">Message:</label>
-                            <textarea name="message" placeholder="Send me a message!" rows="5" onBlur={handleChange} defaultValue={message} />
+                            <textarea
+                                name="message"
+                                placeholder="Send me a message!"
+                                rows="5" onBlur={handleChange}
+                                value={formState.message}
+                                onChange={handleChange}
+                            />
                         </div>
-                        {errorMessage && (
-                            <div>
-                                <p className="error-text">{errorMessage}</p>
-                            </div>
-                        )}
                         <button type="submit" className="m-3">Send Message</button>
+                        {error && <div>Message failed to send.</div>}
                     </form>
                 </div>
             </div>
