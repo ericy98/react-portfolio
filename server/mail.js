@@ -1,14 +1,14 @@
 const express = require('express');
 const router = express.Router();
 const nodemailer = require('nodemailer');
-const cors = require('cors');
+require('dotenv').config();
 
 nodemailer.createTransport({
-    host: "mail.google.com",
+    host: "smtp.gmail.com",
     port: 587,
     auth: {
-        user: "ea.yarbrough98@gmail.com",
-        pass: "n/A"
+        user: process.env.THE_EMAIL,
+        pass: process.env.THE_PASSWORD
     }
 });
 
@@ -27,7 +27,7 @@ router.post('/send', (req, res, next) => {
     var content = `name: ${name} \n email: ${email} \n message: ${message} `
     var mail = {
       from: name,
-      to: "ea.yarbrough98@gmail.com",
+      to: process.env.THE_EMAIL,
       subject: "Message From Portfolio",
       text: content
     }
