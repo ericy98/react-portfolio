@@ -1,5 +1,5 @@
 # React Portfolio
-https://ericy98.github.io/react-portfolio/
+https://still-badlands-62849.herokuapp.com/
 
 ![portfolio-sc](https://user-images.githubusercontent.com/65314282/96062540-8ae4df00-0e5b-11eb-9203-c60187bfb6e8.png)
 
