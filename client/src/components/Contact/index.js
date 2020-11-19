@@ -9,9 +9,9 @@ function ContactForm() {
 
     const [addMessage, { error }] = useMutation(ADD_MESSAGE);
 
-    function handleChange(e) {
+    const handleChange = (event) => {
 
-        const { name, value } = e.target;
+        const { name, value } = event.target;
 
         setFormState({
             ...formState,
@@ -29,6 +29,11 @@ function ContactForm() {
         } catch (e) {
             console.error(e);
         }
+        setFormState({
+            name: '',
+            email: '',
+            message: ''
+          });
         console.log(formState);
     };
 
