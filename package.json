@@ -1,7 +1,6 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "http://ericy98.github.io/react-portfolio",
   "private": true,
   "dependencies": {
     "if-env": "^1.0.4"

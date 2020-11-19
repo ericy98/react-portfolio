@@ -1,7 +1,6 @@
 {
     "name": "react-portfolio",
     "version": "0.1.0",
-    "homepage": "http://ericy98.github.io/react-portfolio",
     "private": true,
     "proxy": "http://localhost:3001/",
     "dependencies": {
