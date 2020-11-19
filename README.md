@@ -1,7 +1,7 @@
 # React Portfolio
 https://still-badlands-62849.herokuapp.com/
 
-![portfolio-sc](https://user-images.githubusercontent.com/65314282/96062540-8ae4df00-0e5b-11eb-9203-c60187bfb6e8.png)
+![image](https://user-images.githubusercontent.com/65314282/99693750-531c1900-2a51-11eb-8bd2-206195860ac0.png)
 
 ## Description:
 A professional website showcasing my React skills and featuring my portfolio.
