@@ -29,6 +29,7 @@ function ContactForm() {
         } catch (e) {
             console.error(e);
         }
+        alert(`Thank you ${formState.name}. Your message was successfully sent.`);
         setFormState({
             name: '',
             email: '',
