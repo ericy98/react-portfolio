@@ -37,7 +37,7 @@ body {
   letter-spacing: .1em;
   background: var(--primary);
   color: var(--text);
-  font-family: 'Staatliches', cursive;
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -252,7 +252,7 @@ textarea:focus {
 
 a {
   border-radius: 5px;
-  font-family: 'Staatliches', cursive;
+  font-family: 'Raleway', sans-serif;
 	color: var(--text);
 	padding: 2px 4px;
 	margin-left: -2px;
