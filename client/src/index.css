@@ -84,7 +84,7 @@ p {
 
 a:hover {
   text-decoration: none;
-  color: var(--secondary);
+  color: var(--pop);
 }
 
 header a {
@@ -141,7 +141,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid var(--secondary);
+  border: 1px solid var(--pop);
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -169,7 +169,7 @@ textarea {
 }
 
 textarea:focus {
-  border: 1px solid var(--secondary);
+  border: 1px solid var(--pop);
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -364,13 +364,21 @@ footer a:hover {
 }
 
 .nav-link.active {
- border: 2px solid var(--secondary);
+ border: 2px solid var(--tertiary);
 }
 
 .who,
 .what,
 .contact {
   color: var(--pop);
+}
+
+.head1 {
+  color: var(--pop);
+}
+
+.head2 {
+  color: var(--tertiary)
 }
 
 @media only screen and (max-width: 700px) {
