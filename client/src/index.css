@@ -35,7 +35,7 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--primary);
-  color: var(--text);
+  color: black;
   font-family: 'Raleway', sans-serif;
 
 }
@@ -49,6 +49,7 @@ h6 {
   font-family: 'Staatliches', cursive;
   margin: 5px 0;
   line-height: 1.25;
+  color: black;
 }
 
 h1 {

@@ -1,9 +1,11 @@
 import React from 'react';
 import Page from './components/PagesContainer';
-import NavTabs from './components/Nav';
+import NavBar from './components/Nav';
 import Footer from './components/Footer';
 import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './components/About'
 
 function App() {
 
@@ -15,7 +17,11 @@ function App() {
     <ApolloProvider client={client}>
       <main>
         <Page>
-          <NavTabs></NavTabs>
+          <NavBar>
+            <Stwitch>
+              <Route exact path="/About" component={About} />
+            </Stwitch>
+          </NavBar>
         </Page>
       </main>
       <Footer />

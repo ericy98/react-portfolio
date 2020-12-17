@@ -1,33 +1,26 @@
 import React from 'react';
 import minimal from '../../assets/minimal-logo.png';
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
-const NavTabs = (props) => {
-
-    const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
+const NavBar = () => {
 
     return (
-        <div>
-            <section className="my-2 d-flex">
-                <a href="/" alt="Homepage"><img src={minimal} alt="E.Y. logo"className="pr-3" ></img></a>
-                <ul className="nav align-items-center">
-                    {tabs.map(tab => (
-                        <li className="nav-item p-1" key={tab}>
-                            <a
-                                href={'#' + tab.toLowerCase()}
-                                onClick={() => props.handlePageChange(tab)}
-                                alt={`${tab} webpage`}
-                                className={
-                                    props.currentPage === tab ? 'nav-link active ' : 'nav-link '
-                                }
-                            >
-                                {tab}
-                            </a>
-                        </li>
-                    ))}
-                </ul>
-            </section>
-        </div>
-    );
+        <Navbar expand="lg" bg="dark" variant="dark" sticky="top">
+            <Navbar.Brand href="/">
+                <image src={minimal} alt="E.Y. logo"></image>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                    <Nav.Link href="#about">About</Nav.Link>
+                    <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                    <Nav.Link href="#contact">Contact</Nav.Link>
+                    <Nav.Link href="#resume">Resume</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+
+        </Navbar>
+    )
 }
 
-export default NavTabs;
+export default NavBar;
