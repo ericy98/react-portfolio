@@ -35,7 +35,7 @@ const About = () => {
             I lean towards the back-end of code and find comfort in manipulating data. I can work with both SQL and NoSQL databases and follow the M.V.C. paradigm to give my code structure.  However, I do love a good color palette and find myself mentally redesigning websites. My style is minimal with a touch of playfulness.
           </p>
           <p className="text-break m-3">
-            I tend to work closely with people and will regularly touch base and relay ideas that might come--up. I thoroughly enjoy the brainstorming process and planning out code in my notebook (its full of rough sketches and terrible ideas).
+            I tend to work closely with people and will regularly touch base and relay ideas that might come-up. I thoroughly enjoy the brainstorming process and planning out code in my notebook (its full of rough sketches and terrible ideas).
           </p>
         </div>
         <div>
