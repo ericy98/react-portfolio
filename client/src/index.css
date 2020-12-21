@@ -366,6 +366,10 @@ footer a:hover {
  border: 2px solid var(--text);
 }
 
+.nav-link {
+  font-family: 'Staatliches', cursive;
+}
+
 .who,
 .what,
 .contact {
