@@ -4,6 +4,7 @@ import NavTabs from './components/Nav';
 import Footer from './components/Footer';
 import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
+import { initImages } from 'react-adaptive-image';
 
 function App() {
 
