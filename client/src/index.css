@@ -5,12 +5,12 @@ main {
 }
 
 :root {
-  --primary: #1A1A1D;
+  --primary: #5cdb95;
   --secondary: #7209b7;
-  --tertiary: #4cc9f0;
-  --text: #FEFFFF;
+  --tertiary: #ABD3FA;
+  --text: #052F5A;
   --light: #555555;
-  --pop: #f72585;
+  --pop: #DB5CCC;
   --blue: #4361ee;
   --red: #bf0603;
   --error: rgb(228, 46, 1);
@@ -36,7 +36,7 @@ body {
   letter-spacing: .1em;
   background: var(--primary);
   color: var(--text);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;;
 
 }
 
@@ -83,7 +83,7 @@ p {
 
 a:hover {
   text-decoration: none;
-  color: var(--pop);
+  color: white;
 }
 
 header a {
@@ -99,8 +99,8 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--pop);
-  color: var(--text);
+  background-color: var(--text);
+  color: white
 }
 
 button:hover {
@@ -140,7 +140,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid var(--pop);
+  border: 1px solid var(--text);
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -168,7 +168,7 @@ textarea {
 }
 
 textarea:focus {
-  border: 1px solid var(--pop);
+  border: 1px solid var(--text);
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -251,7 +251,7 @@ textarea:focus {
 
 a {
   border-radius: 5px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 	color: var(--text);
 	padding: 2px 4px;
 	margin-left: -2px;
@@ -283,7 +283,7 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--secondary);
+  color: white;
 }
 
 .portrait {
@@ -293,8 +293,8 @@ footer a:hover {
 
 .about {
   text-decoration: underline;
-  text-decoration-color: var(--text);
-  color: var(--pop);
+  text-decoration-color: white;
+  color: var(--text);
 }
 
 
@@ -313,7 +313,7 @@ footer a:hover {
 }
 
 .project-text {
-    color: var(--pop);
+    color: white;
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -338,19 +338,19 @@ footer a:hover {
 .project-text a {
   text-decoration: underline;
   font-weight: bold;
-  color: var(--text);
+  color: white;
   transition: all .3s ease-in-out;
 }
 
 .project-text a:hover {
-  color: var(--pop);
+  color: var(--tertiary);
   text-decoration: none;
 }
 
 .homeh2 {
   font-size: 2rem;
-  border-top: 2px solid var(--pop);
-  border-bottom: 2px solid var(--secondary);
+  border-top: 2px solid var(--text);
+  border-bottom: 2px solid white;
   padding: 6rem;
 }
 
@@ -363,21 +363,21 @@ footer a:hover {
 }
 
 .nav-link.active {
- border: 2px solid var(--tertiary);
+ border: 2px solid var(--text);
 }
 
 .who,
 .what,
 .contact {
-  color: var(--pop);
+  color: var(--text);
 }
 
 .head1 {
-  color: var(--pop);
+  color: var(--text);
 }
 
 .head2 {
-  color: var(--tertiary)
+  color: white;
 }
 
 @media only screen and (max-width: 700px) {
