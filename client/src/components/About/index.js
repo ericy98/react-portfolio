@@ -5,10 +5,10 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="container-fluid py-3">
+    <div className=" about container-fluid py-3">
       <div className="row align-items-center ">
         <div className="py-1">
-          <h2 className="about  text-center">
+          <h2 className="abouth2  text-center">
             Who I Am.
           </h2>
           <p className="text-break m-3">
@@ -28,7 +28,7 @@ const About = () => {
       </div>
       <div className="row align-items-center ">
         <div className="py-1">
-          <h2 className="about text-center">
+          <h2 className="abouth2 text-center">
             What I Do.
           </h2>
           <p className="text-break m-3">

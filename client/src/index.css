@@ -35,6 +35,8 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--primary);
+  /* background: url('./assets/zigzag.png'); */
+  text-decoration: none;
   color: var(--text);
   font-family: 'Open Sans', sans-serif;
 
@@ -265,9 +267,8 @@ a {
 }
 
 /* .homeBG {
-  background: url('./assets/background.png');
-  background-size: contain; 
-  color: var(--primary);
+  ;
+  background-size: auto;
 } */
 
 .footer {
@@ -291,7 +292,7 @@ footer a:hover {
   height: 42%;
 }
 
-.about {
+.abouth2 {
   text-decoration: underline;
   text-decoration-color: white;
   color: var(--text);
@@ -383,6 +384,10 @@ footer a:hover {
 
 .head2 {
   color: white;
+}
+
+.default{
+  background: var(--primary);
 }
 
 @media only screen and (max-width: 700px) {

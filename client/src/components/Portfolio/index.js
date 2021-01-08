@@ -48,7 +48,7 @@ function Portfolio() {
   ])
 
   return (
-    <div>
+    <div className='portfolio'>
       <div className="flex-row justify-content-center">
         {projects.map((project, idx) => (
           <Project

@@ -41,8 +41,8 @@ function ContactForm() {
 
 
     return (
-        <section>
-            <div className=" d-flex justify-content-center">
+        <section className="contact">
+            <div className="d-flex justify-content-center">
                 <div className="justify-content-center">
                     <div className="text-center">
                         <h2 className="p-3 contact">Contact Me</h2>
