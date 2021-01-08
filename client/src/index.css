@@ -52,32 +52,32 @@ h6 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 2.75rem;
+  font-size: 2.25rem;
   color: var(--text);
 }
 
 h3 {
-  font-size: 2.5rem;
-}
-
-h4 {
-  font-size: 2.25rem;
-}
-
-h5 {
   font-size: 2rem;
 }
 
-h6 {
+h4 {
   font-size: 1.75rem;
 }
 
-p {
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
   font-size: 1.25rem;
+}
+
+p {
+  font-size: 1.1rem;
   margin-top: 0;
 }
 
@@ -336,6 +336,7 @@ footer a:hover {
 }
 
 .project-text a {
+  font-family: 'Playfair Display', serif;
   text-decoration: underline;
   font-weight: bold;
   color: white;
