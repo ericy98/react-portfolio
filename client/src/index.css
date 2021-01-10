@@ -106,8 +106,8 @@ button {
 }
 
 button:hover {
-  opacity: .7;
-  
+  background: var(--tertiary);
+  color: black;
 }
 
 button[disabled] {
@@ -329,7 +329,7 @@ footer a:hover {
 .project-text:hover {
   background-color: rgb(39, 39, 39, 0.85);
   opacity: 1;
-  border: 5px solid var(--tertiary);
+  border: 5px solid white;
 }
 
 .project-text h3 {
@@ -414,11 +414,11 @@ footer a:hover {
 
   .project-text{
     opacity: 1;
-    padding: 0px;
-    text-align: center;
+    padding: 15px;
     transition: none;
-    background: rgba(5, 47, 90, 0.6)
+    background: rgba(5, 47, 90, 0.6);
   }
+
 }
 
 @media only screen and (max-width: 500px) {
