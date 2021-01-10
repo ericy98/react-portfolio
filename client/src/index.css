@@ -411,6 +411,14 @@ footer a:hover {
   body {
     text-align: center;
   }
+
+  .project-text{
+    opacity: 1;
+    padding: 0px;
+    text-align: center;
+    transition: none;
+    background: rgba(5, 47, 90, 0.6)
+  }
 }
 
 @media only screen and (max-width: 500px) {
