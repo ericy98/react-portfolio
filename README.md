@@ -1,10 +1,10 @@
 # React Portfolio
 https://still-badlands-62849.herokuapp.com/
 
-![image](https://user-images.githubusercontent.com/65314282/99693750-531c1900-2a51-11eb-8bd2-206195860ac0.png)
+
 
 ## Description:
-A professional website showcasing my React skills and featuring my portfolio.
+A portfolio website featuring my info about me, highlighted project, my resume and an interactive contact form.
 
 ## Installation:
 Download node.js
@@ -12,13 +12,17 @@ Download node.js
 To create a react app:
  > npx react-portfolio 
 
+Download all dependencies 
+ > npm i  
+
 Start the server:
   > npm start
 
 ## Future Updates:
-* Build the back-end to accept form data.
-* Enhance portfolio image quality.
-* Build out the mobile side of the site.
+* Enhance portfolio image quality
+* Redesign mobile view
+* Introduce animations
+* Display resume pdf in the website
 
 ## Made By:
 Eric Yarbrough
