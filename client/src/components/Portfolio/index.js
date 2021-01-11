@@ -39,7 +39,7 @@ function Portfolio() {
       repo: 'https://github.com/ericy98/employee-tracker'
     },
     {
-      name: 'Matching a Hex Value',
+      name: 'Hex Value',
       imgName: 'regextutorial',
       description: 'Regex Tutorial',
       link: 'https://gist.github.com/ericy98/1ff1c5afae3f3c0f26dd2fd747f1d9dc',

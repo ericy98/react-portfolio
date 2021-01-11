@@ -390,7 +390,7 @@ footer a:hover {
   background: var(--primary);
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   form {
     width: auto;
   }
@@ -417,6 +417,10 @@ footer a:hover {
     padding: 15px;
     transition: none;
     background: rgba(5, 47, 90, 0.6);
+  }
+
+  .git {
+    padding: 5px;
   }
 
 }
