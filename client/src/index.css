@@ -85,7 +85,7 @@ p {
 
 a:hover {
   text-decoration: none;
-  color: white;
+  color: var(--tertiary);
 }
 
 header a {
@@ -365,11 +365,16 @@ footer a:hover {
 }
 
 .nav-link.active {
- border: 2px solid var(--text);
+ border: 2px solid var(--tertiary);
 }
 
 .nav-link {
   font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+.navigation {
+  background: var(--text);
 }
 
 .who,

@@ -6,7 +6,7 @@ const NavTabs = (props) => {
     const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
 
     return (
-        <div>
+        <div className="navigation">
             <section className="my-2 d-flex">
                 <a href="/" alt="Homepage"><img src={minimal} alt="E.Y. logo"className="pr-3" ></img></a>
                 <ul className="nav align-items-center">
