@@ -25,7 +25,8 @@ main {
 
 html,
 body {
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 body {
@@ -34,10 +35,10 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--primary);
+  background: var(--text);
   /* background: url('./assets/zigzag.png'); */
   text-decoration: none;
-  color: var(--text);
+  color: white;
   font-family: 'Open Sans', sans-serif;
 
 }
@@ -59,7 +60,7 @@ h1 {
 
 h2 {
   font-size: 2.25rem;
-  color: var(--text);
+  color: white;
 }
 
 h3 {
@@ -89,7 +90,7 @@ a:hover {
 }
 
 header a {
-  color: var(--text);
+  color: white;
 }
 
 button {
@@ -101,7 +102,7 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--text);
+  background-color: white;
   color: white
 }
 
@@ -130,7 +131,7 @@ form{
 }
 
 label{
-  color: var(--text);
+  color: white;
 }
 
 input {
@@ -142,7 +143,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid var(--text);
+  border: 1px solid white;
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -170,7 +171,7 @@ textarea {
 }
 
 textarea:focus {
-  border: 1px solid var(--text);
+  border: 1px solid white;
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -254,7 +255,7 @@ textarea:focus {
 a {
   border-radius: 5px;
   font-family: 'Open Sans', sans-serif;
-	color: var(--text);
+	color: white;
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
@@ -267,8 +268,8 @@ a {
 }
 
 /* .homeBG {
-  ;
-  background-size: auto;
+  background-image: url('../src/assets/homeBG.png');
+  background-size: cover;
 } */
 
 .footer {
@@ -277,7 +278,7 @@ a {
 }
 
 footer a {
-  color: var(--text);
+  color: white;
   opacity: 1;
   margin: 10px 20px;
   transition: all .3s ease-in-out;
@@ -295,7 +296,7 @@ footer a:hover {
 .abouth2 {
   text-decoration: underline;
   text-decoration-color: white;
-  color: var(--text);
+  color: white;
 }
 
 
@@ -351,7 +352,7 @@ footer a:hover {
 
 .homeh2 {
   font-size: 2rem;
-  border-top: 2px solid var(--text);
+  border-top: 2px solid white;
   border-bottom: 2px solid white;
   padding: 6rem;
 }
@@ -365,7 +366,7 @@ footer a:hover {
 }
 
 .nav-link.active {
- border: 2px solid var(--text);
+ border: 2px solid white;
 }
 
 .nav-link {
@@ -375,11 +376,11 @@ footer a:hover {
 .who,
 .what,
 .contact {
-  color: var(--text);
+  color: white;
 }
 
 .head1 {
-  color: var(--text);
+  color: white;
 }
 
 .head2 {
