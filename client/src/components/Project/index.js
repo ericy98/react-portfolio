@@ -13,7 +13,7 @@ function Project({ project }) {
             <div className="project-text text-center">
                 <h3>
                     <a href={link} target="_blank" rel="noopener noreferrer">{name}</a>
-                    <a href={repo} target="_blank" rel="noopener noreferrer">
+                    <a href={repo} className="git" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-github"></i>
                     </a>
                 </h3>

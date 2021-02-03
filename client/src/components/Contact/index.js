@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
 import { useMutation } from '@apollo/react-hooks';
 import { ADD_MESSAGE } from '../../utils/mutations';
 
