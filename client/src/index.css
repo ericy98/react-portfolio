@@ -424,6 +424,10 @@ footer a:hover {
     padding: 5px;
   }
 
+  button{
+    color: var(--text);
+  }
+
 }
 @media only screen and (max-width: 500px) {
   
