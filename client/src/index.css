@@ -86,11 +86,7 @@ p {
 
 a:hover {
   text-decoration: none;
-<<<<<<< HEAD
-  color: var(--tertiary);
-=======
   color: var(--pop);
->>>>>>> homeredo
 }
 
 header a {
