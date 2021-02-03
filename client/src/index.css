@@ -10,7 +10,7 @@ main {
   --tertiary: #ABD3FA;
   --text: #052F5A;
   --light: #555555;
-  --pop: #DB5CCC;
+  --pop: #ed1c4c;
   --blue: #4361ee;
   --red: #bf0603;
   --error: rgb(228, 46, 1);
@@ -86,7 +86,7 @@ p {
 
 a:hover {
   text-decoration: none;
-  color: white;
+  color: var(--pop);
 }
 
 header a {
@@ -102,13 +102,13 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: white;
+  background-color: var(--pop);
   color: white
 }
 
 button:hover {
-  background: var(--tertiary);
-  color: black;
+  background: white;
+  color: var(--pop);
 }
 
 button[disabled] {
@@ -285,7 +285,7 @@ footer a {
 }
 
 footer a:hover {
-  color: white;
+  color: var(--pop);
 }
 
 .portrait {
